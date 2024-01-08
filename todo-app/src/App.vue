@@ -52,11 +52,7 @@ const saveTask = (): void => {
 
 <style lang="scss">
 
-  $primary-color: #3498db;
-  $white-color: #ffffff;
-  $gray-color: #f1f1f1;
-  $border: 10px;
-  $padding: 10px;
+  @import './assets/_root.scss';
 
   .form-task {
     width: 100%;
